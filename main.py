@@ -12,6 +12,5 @@ class GeneratorIterator:
 my_list = [1, 2, 3, 4, 5]
 iterable = GeneratorIterator(my_list)
 
-print(GeneratorIterator)
-print(iterable)
-print(my_list)
+for elem in iterable:
+    print(elem)
